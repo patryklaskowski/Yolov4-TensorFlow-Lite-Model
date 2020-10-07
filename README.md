@@ -8,7 +8,7 @@ Ready to run YOLOv4 implemented in TensorFlow Lite format.
 
 ## 1. Prepare environment
 ```
-got clone https://github.com/patryklaskowski/Yolov4-TensorFlow-Lite-Model
+git clone https://github.com/patryklaskowski/Yolov4-TensorFlow-Lite-Model
 cd Yolov4-TensorFlow-Lite-Model/
 python3.7 -m venv env
 source env/bin/activate
