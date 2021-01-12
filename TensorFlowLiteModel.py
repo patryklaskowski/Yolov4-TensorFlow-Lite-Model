@@ -68,7 +68,7 @@ def create_prediction_stream(model_path, names_path, video_source, cycle=0, tres
     '''
     Every cycle frames prediction will be performed. By default every single frame will be transformed.
     '''
-    model = Yolov4TensorFlowLiteModel(model_path, names_path, treshold=treshold, input_size=416)
+    model = Yolov4TensorFlowLiteModel(model_path, names_path, treshold=treshold, input_size=input_size)
     video = cv2.VideoCapture(video_source)
     time.sleep(1)
     
